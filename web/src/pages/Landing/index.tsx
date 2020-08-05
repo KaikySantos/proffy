@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router-dom'
 
-import "./styles.css";
+import './styles.css';
 
 import logoImg from "../../assets/images/logo.svg";
 import landingImg from "../../assets/images/landing.svg";
