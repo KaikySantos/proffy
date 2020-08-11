@@ -1,7 +1,6 @@
 import React from 'react';
-
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Ionicons } from '@expo/vector-icons';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import { Ionicons } from '@expo/vector-icons'
 
 import TeacherList from '../pages/TeacherList';
 import Favorites from '../pages/Favorites';
@@ -20,7 +19,7 @@ function StudyTabs() {
         tabStyle: {
           flexDirection: 'row',
           alignItems: 'center',
-          justifyContent: 'center',
+          justifyContent: 'center'
         },
         iconStyle: {
           flex: 0,
@@ -35,7 +34,7 @@ function StudyTabs() {
         inactiveBackgroundColor: '#fafafc',
         activeBackgroundColor: '#ebebf5',
         inactiveTintColor: '#c1bccc',
-        activeTintColor: '#32264d',
+        activeTintColor: '#32264d'
       }}
     >
       <Screen
@@ -45,11 +44,12 @@ function StudyTabs() {
           tabBarLabel: 'Proffys',
           tabBarIcon: ({ color, size, focused }) => {
             return (
-              <Ionicons name="ios-easel" size={size} color={focused ? '#8257e5' : color} />
+              <Ionicons name="ios-easel" size={size} color={ focused ? '#8257e5' : color } />
             )
           }
         }}
       />
+
       <Screen
         name="Favorites"
         component={Favorites}
@@ -57,13 +57,13 @@ function StudyTabs() {
           tabBarLabel: 'Favoritos',
           tabBarIcon: ({ color, size, focused }) => {
             return (
-              <Ionicons name="ios-heart" size={size} color={focused ? '#8257e5' : color} />
+              <Ionicons name="ios-heart" size={size} color={ focused ? '#8257e5' : color } />
             )
           }
         }}
       />
     </Navigator>
-  )
+  );
 }
 
 export default StudyTabs;
