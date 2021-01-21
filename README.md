@@ -3,20 +3,20 @@
 </p>
 
 <div align="center">
-  <sub>The NextLevelWeek #2 project. Built with ❤︎ by
+  <sub>Projeto da NextLevelWeek #2.0. Feito ❤︎ by
     <a href="https://github.com/KaikySantos">Kaiky Santos</a>
   </sub>
 </div>
 
-# :pushpin: Table of contents
+# :pushpin: Índice
 
 * [Screenshot](#screenshot) 
-* [Technologies](#technologies)
-* [How to Run](#run)
+* [Tecnologias](#technologies)
+* [Como rodar ?](#run)
 
 <a id="screenshot"></a>
 
-# :camera: Screenshots
+# :camera: Screenshot
 
 ### Web Screenshot
 <div>
@@ -34,8 +34,8 @@
 
 <a id="technologies"></a>
 
-# :computer: Technologies
-This project was made using the follow technologies:
+# :computer: Tecnologias
+Este projeto utiliza essas tecnologias:
 
 * [Typescript](https://www.typescriptlang.org/)      
 * [React](https://reactjs.org/)      
@@ -44,53 +44,53 @@ This project was made using the follow technologies:
 
 <a id="run"></a>
 
-# :construction_worker: How to run
+# :construction_worker: Como rodar ?
 ```bash
-# Clone the Repository
+# Clone o Repositório:
 $ git clone https://github.com/KaikySantos/Proffy.git
-# Go to folder
+# Entre na pasta criada:
 $ cd proffy
 ```
-### 📦 Run API
+### 📦 Rode a API:
 
 ```bash
-# Go to server folder
+# Entre na pasta do server
 $ cd server
 
-# Install Dependencies
+# Instale as dependências
 $ yarn install
 
-# Run Aplication
+# Rode a API
 $ yarn start
 ```
-Access at http://localhost:3333/
+URL Base: http://localhost:3333/
 
-### 💻 Run Web Project
+### 💻 Rode o Projeto Web
 
 ```bash
-# Go to web folder
+# Entre na pasta web
 $ cd Proffy/web
 
-# Install Dependencies
+# Instale as dependências
 $ yarn install
 
-# Run Aplication
+# Rode a aplicação
 $ yarn start
 ```
-Go to http://localhost:3000/ to see the result.
+Entre em http://localhost:3000/ para ver o resultado.
 
-### 📱 Run Mobile Project
-To run the project you need app [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator android/ios.
+### 📱 Rode a aplicação mobile
+Para rodar essa aplicação, você precisa do [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instalado ou algum emulado android/ios!
 <br />
 
 ```bash
-# Go to mobile folder
+# Entre na pasta mobile
 $ cd Proffy/mobile
 
-# Install Dependencies
+# Instale as dependências
 $ yarn install
 
-# Run Aplication
+# Rode a aplicação
 $ yarn start
 ```
-Aferter read the QR Code with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent).
+Depois leia o QR Code gerado com seu aplicaivo [expo](https://play.google.com/store/apps/details?id=host.exp.exponent).
